@@ -1,0 +1,42 @@
+Lil Magnet Boy
+Programmers: Frank & Alex
+Creative Director: Eric
+Artist: ?
+
+Genre: Platformer puzzle
+Style: Industrial, underground dystopian world, purple tints
+
+The player, a little magnet boy, has two arms with opposite polarities.
+Enemies are made of metal and you can pull or push them depending on which hand you use. (left/right click)
+Enemies will be marked to represent their polarity in an easily identifiable way (colors?).
+The player must use the opposite color to pull them, and the same color to push them. (MAGNETZ HOW DO THEY WORK)
+The player must push or pull them into traps, switches, etc, and interact with various objects to get to the end of the level.
+
+The player should be allowed to double-jump, but in some cases the jump may be too far to the next platform.
+In this case, there will be a small metal ball that the player can magnetize to, and pull themselves up the rest of the way.
+
+One of the objects in the game will act in a similar fashion to companion cubes in Portal.
+However, these cubs will also have a certain polarity, and as a player is using one hand to
+carry the portal, only the player's other hand will be usable, such as their N polarity hand
+if they are using their S polarity hand to carry the box.
+
+These boxes will be used similar to Portal, in that they will assist the player in reaching
+the end of the stage, by acting as a weight for buttons, for example.
+
+**Game World**
+Each stage will be built in the Tiled editor, and exported as a JSON file.
+These maps will contain the static platforms, walls, ceilings, and floors that the player will collide with, as
+well as the background textures that the player will not collide with.
+
+In the game, there will be platforms whose Y coordinates are static, but like any other dynamic object in
+the game, they can be pushed and pulled by the player. These platforms will NOT be part of the Tiled map,
+and will instead be created at runtime. They will be defined inside of the level script JSON file that
+accompanies all levels in this project.
+
+Yet not all platforms will be quite as dynamic. Certain platforms will be on a track, and will move left and right at a fixed rate.
+
+Last modified 5/30/2016
+
+TODO:
+- In the level scripts, add a section for platforms, and define their starting position, texture, and behavior.
+- Allow all GameObjects and Enemies to collide with the Tiled map, just as the player can. (fix physics bug)

@@ -1,0 +1,6 @@
+Adhere to these rules when creating new Tiled maps or they will not be  processed correctly:
+1. The name of the tileset of every level MUST be named 'set_01'
+2. In the map properties, the Tile Layer Format MUST be set to CSV and exported as a JSON file.
+3. The .json file must be the levelName and nothing else
+4. The tileset png must be titled levelName_tiles.png
+5. All Tiled maps must have one Layer called Ground. (for now [5/28/16])

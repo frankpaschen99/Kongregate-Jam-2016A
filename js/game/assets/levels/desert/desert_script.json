@@ -1,0 +1,20 @@
+{
+	"properties": {
+		"name":"desert",
+		"author":"Frank",
+		"map_path":"js/game/assets/levels/levels/desert/desert_tilemap.json",
+		"tileset_path":"js/game/assets/levels/desert/desert_tiles.png",
+		"collision_layer":"Ground",
+		"collisiontiles": [
+			33
+		],
+		"id":1,
+		"player_spawnX":0,
+		"player_spawnY":0
+	},
+	"objects": [
+	],
+	"enemies": [
+
+	]
+}

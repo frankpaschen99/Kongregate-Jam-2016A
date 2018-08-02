@@ -1,0 +1,20 @@
+{
+	"properties": {
+		"name":"mario",
+		"author":"Frank",
+		"map_path":"js/game/assets/levels/levels/mario/mario_tilemap.json",
+		"tileset_path":"js/game/assets/levels/mario/mario_tiles.png",
+		"collision_layer":"Ground",
+		"collisiontiles": [
+			15, 16, 20, 21, 22, 23, 24, 25, 27, 28, 29, 40
+		],
+		"id":2,
+		"player_spawnX":0,
+		"player_spawnY":0
+	},
+	"objects": [
+	],
+	"enemies": [
+
+	]
+}

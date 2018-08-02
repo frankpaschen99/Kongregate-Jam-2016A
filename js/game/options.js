@@ -1,0 +1,5 @@
+var Options = function () {};
+
+Options = {
+    
+};
